@@ -13,17 +13,19 @@ atividade 3:
    
    *Desvantagem: Se uma parte do sistema falhar (ex: módulo de relatórios pesados), o sistema inteiro cai.
    
+   
    *Microserviços: O código é dividido em várias APIs independentes. Traz alta escalabilidade e resiliência.
    
    *Desvantagem: O desenvolvimento fica muito complexo, difícil de testar localmente e exige infraestrutura cara (Kubernetes, redes, etc).
    
-3. ORM vs. SQL Nativo (Acesso a Banco de Dados)
+2. ORM vs. SQL Nativo (Acesso a Banco de Dados)
    
    -O Dilema: Escolher como o código vai conversar com o banco de dados.
    
    *ORM (ex: Hibernate, Entity Framework, Prisma): Você escreve código na sua linguagem (ex: Java, JavaScript) e o ORM cria o SQL sozinho. Aumenta muito a velocidade de entrega.
    
    *Desvantagem: O ORM costuma gerar consultas SQL ineficientes e pesadas, prejudicando a performance em sistemas grandes.
+   
    
    *SQL Nativo: Você escreve as queries na mão. Garante performance máxima e controle total sobre o banco.
    
@@ -37,6 +39,7 @@ atividade 3:
    *Tipagem Estática (ex: Java, C#, TypeScript): Você precisa declarar se uma variável é texto, número, etc. O compilador avisa os erros antes do código rodar.
    
    *Desvantagem: Exige mais linhas de código (boilerplate) e torna o desenvolvimento inicial mais lento e rígido.
+   
    
    *Tipagem Dinâmica (ex: Python, JavaScript, PHP): Você cria variáveis livremente. O desenvolvimento é extremamente rápido e flexível.
    
