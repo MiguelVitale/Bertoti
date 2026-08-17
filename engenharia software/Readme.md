@@ -6,6 +6,7 @@ adaptar a mudanças necessárias futuras.
 
 atividade 3:
 1. Monolito vs. Microserviços (Arquitetura)
+   
    -O Dilema: Decidir a estrutura da aplicação antes de começar a programar.
    
    *Monolito: Todo o código fica em um único projeto. É muito fácil e rápido de programar, testar e publicar.
@@ -15,6 +16,7 @@ atividade 3:
    *Desvantagem: O desenvolvimento fica muito complexo, difícil de testar localmente e exige infraestrutura cara (Kubernetes, redes, etc).
    
 3. ORM vs. SQL Nativo (Acesso a Banco de Dados)
+   
    -O Dilema: Escolher como o código vai conversar com o banco de dados.
    
    *ORM (ex: Hibernate, Entity Framework, Prisma): Você escreve código na sua linguagem (ex: Java, JavaScript) e o ORM cria o SQL sozinho. Aumenta muito a velocidade de entrega.
@@ -24,6 +26,7 @@ atividade 3:
    *Desvantagem: O desenvolvimento fica lento, o código fica gigante e o risco de erros de digitação ou segurança (SQL Injection) aumenta.
    
 3. Tipagem Estática vs. Tipagem Dinâmica (Linguagem de Programação)
+   
    -O Dilema: Escolher a linguagem de programação baseada na verificação de tipos de dados.
    
    *Tipagem Estática (ex: Java, C#, TypeScript): Você precisa declarar se uma variável é texto, número, etc. O compilador avisa os erros antes do código rodar.
